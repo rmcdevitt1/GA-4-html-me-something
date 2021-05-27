@@ -6,15 +6,19 @@ body {
     text-align: center;
 }
 
+
+
 #small-italic {
     font-style: italic;
     font-size: 8px;
     text-align: center;
 }
 
+
 figure {
-    margin-top: 0px;
+    margin-top: 1px;
 }
+
 
 figcaption {
     text-align: right;
@@ -41,8 +45,8 @@ h2 {
 h3 {
     margin-left: 250px;
     margin-right: 250px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    /* padding-top: 7px;
+    padding-bottom: 7px; */
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
@@ -66,11 +70,44 @@ nav ul li {
     list-style-type: none;
 }
 
+nav ul {
+    margin-top: 1px;
+}
+
 p {
     text-align: left;
     margin-left: 230px;
     margin-right: 230px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-size: 18px;
+}
+
+#monsters-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: 55px;
+}
+
+#monsters-caption {
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18.5px;
+}
+
+.monster-paragraph {
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.border {
+    border: 10px solid #81B29A;
+}
+
+#reverse-align {
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 230px;
 }
