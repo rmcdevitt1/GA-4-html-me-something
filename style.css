@@ -10,8 +10,13 @@ body {
 
 #small-italic {
     font-style: italic;
-    font-size: 8px;
+    font-size: 10px;
     text-align: center;
+    margin-top: 15px;
+}
+
+h4 {
+    margin-bottom: 5px;
 }
 
 
@@ -98,7 +103,7 @@ p {
 }
 
 .monster-paragraph {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 0px;
 }
 
@@ -110,4 +115,8 @@ p {
     text-align: right;
     margin-left: 0px;
     margin-right: 230px;
+}
+
+#link {
+    text-align: center;
 }
